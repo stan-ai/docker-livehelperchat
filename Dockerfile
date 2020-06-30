@@ -2,7 +2,7 @@ FROM tutum/apache-php:latest
 LABEL maintainer="jakub.gluszecki@gmail.com"
 
 ENV DEBIAN_FRONTEND noninteractive
-ENV TAG 3.20v
+ENV TAG 3.37v
 
 RUN apt-get update && \
     apt-get -y install php5-curl && \
