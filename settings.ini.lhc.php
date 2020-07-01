@@ -27,6 +27,7 @@ return array (
                     'extensions' =>
                         array (
                             // 0 => 'customstatus',
+                            'twilio'
                         ),
                     'available_site_access' =>
                         array (
